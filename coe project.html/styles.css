@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Container for Product Grid */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Individual Product Styles */
+.product {
+    background-color: white;
+    width: 250px;
+    margin: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+/* Product Image */
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Product Info Section */
+.product-info {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Product Title */
+.product-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Product Description */
+.product-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Product Price */
+.product-info .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Add to Cart Button */
+.product-info button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-info button:hover {
+    background-color: #555;
+}
